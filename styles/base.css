@@ -1,3 +1,90 @@
-h1 {
-    color:aqua
+/* base.css */
+@import url("https://fonts.google.com/specimen/Montserrat");
+body {
+    font: Montserrat; /* Example font */
+    margin: 50px;
+    padding: 0;
+}
+span {
+    font-size: 1.5em;
+    margin-right: 0px;
+}
+header{
+    
+    padding: 10px;
+    text-align: center;
+    background: navy;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+   
+
+}
+nav{
+    padding: 10px;
+    text-align: center;
+    background: rgb(22, 22, 22);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+    
+}
+
+
+main{
+    padding: 10px;
+    text-align: center;
+    background: rgb(240, 235, 235);
+    color: rgb(28, 26, 26);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+    
+}
+
+
+aside{
+    padding: 10px;
+    text-align: center;
+    background: rgb(240, 235, 235);
+    color: rgb(28, 26, 26);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+    
+}
+footer{
+
+    padding: 10px;
+    text-align: center;
+    background: rgb(240, 235, 235);
+    color: rgb(28, 26, 26);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+header img {
+  display: block;
+  margin-left: 400px;
+  margin-right: 60px;
+  width: 10%;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 50px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer {
+    text-align: center;
 }

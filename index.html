@@ -3,14 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 230</title>
+    <title>[Your Name] - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development. [Your Full Name]. Course assignment portal.">
+    <meta name="author" content="[Your Full Name]">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
-    <h1>WDD 230</h1>
-    <h2>Wessly Green</h2>
-    <main></main>
-    <footer></footer>
-    <script src="scripts/default.js"></script>
+    <header>
+        <img src="images/wess.JPG" alt="Your Profile Image">
+        <span>[Your Full Name]</span>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <section class="card">
+            <h2>Learning Activities</h2>
+            <ul>
+                <h1>Week 01</h1>
+                <li><a href="#">Layout</a></li>
+                <li><a href="#">Media Query</a></li>
+                <li><a href="#">JS Pen</a></li>
+                <h2>Week 02</h2>
+                <h3>Week 03</h3>
+                <h4>Week 04</h4>
+                <h5>Week 05</h5>
+                <h6>Week 06</h6>
+            </ul>
+
+        </section>
+        <section class="card">
+            <h2>Information</h2>
+            <p>Weather: [Placeholder]</p>
+            <p>Number of visits: [Placeholder]</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> [Your Full Name] [Your Country]</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
 </body>
 </html>

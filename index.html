@@ -2,53 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Your Name] - WDD 230 - Web Frontend Development</title>
-    <meta name="description" content="WDD 230 - Web Frontend Development. [Your Full Name]. Course assignment portal.">
-    <meta name="author" content="[Your Full Name]">
+    <meta name="viewport" content="WDD 230 - Web Fronted Development [Wessly Green] course assignment portal">
+    <title>Wessly Green - WDD 230 - Web Fronted Development</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/getDates.js" defer></script>
 </head>
 <body>
-    <header>
-        <img src="images/wess.JPG" alt="Your Profile Image">
-        <span>[Your Full Name]</span>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Chamber</a></li>
-            <li><a href="./week01/chamber-site-plan.html">Site Plan</a></li>
-            <li><a href="#">Form</a></li>
-        </ul>
-    </nav>
+    <div class="banner">
+        <header>
+            <img id="picture" src="./images/wess.JPG" alt="Profile Image">
+            <span id="name">Wessly Green</span>
+        </header> 
+    </div>
+    
+    <ul class="navigation">
+        <li><a id="active" href="#">Home</a></li>
+        <li><a href="#">Chamber</a></li>
+        <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+        <li><a href="#">Form</a></li>
+    </ul>
+ 
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
+        <div class="long-line"></div>
         <section class="card">
             <h2>Learning Activities</h2>
-            <ul>
-                <h1>Week 01</h1>
-                <li><a href="#">Layout</a></li>
-                <li><a href="#">Media Query</a></li>
-                <li><a href="#">JS Pen</a></li>
-                <h2>Week 02</h2>
-                <h3>Week 03</h3>
-                <h4>Week 04</h4>
-                <h5>Week 05</h5>
-                <h6>Week 06</h6>
-            </ul>
-
+            <p>Week 1: <a href="#activity1">Layout</a> | <a href="#activity2">Media</a> | <a href="#activity3">Js Pen</a></p>
+            <p>Week 2:</p>
+            <p>Week 3:</p>
+            <p>Week 4:</p>
+            <p>Week 5:</p>
+            <p>Week 6:</p>
         </section>
         <section class="card">
-            <h2>Information</h2>
-            <p>Weather: [Placeholder]</p>
-            <p>Number of visits: [Placeholder]</p>
+            <div id="information">
+                <h2>Information</h2>
+                <p>Guatemala, Guatemala City</p>
+                <p>Page Visits: 15</p>
+                <p>Current Date: May 3, 2024</p>
+                <p>Current Time: 12:30 PM</p>
+            </div>    
         </section>
     </main>
     <footer>
-        <p>&copy; <span id="currentYear"></span> [Your Full Name] [Your Country]</p>
-        <p id="lastModified"></p>
+        <p>&copy; 2024 Wessly Roy Green Contreras / Guatemala</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
-    <script src="scripts/getDates.js"></script>
 </body>
 </html>

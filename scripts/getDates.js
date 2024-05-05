@@ -1,5 +1,14 @@
-// get current year
-document.getElementById('currentYear').textContent = new Date().getFullYear();
+// getDates.js
 
-// get last modified date
-document.getElementById('lastModified').textContent = "Last modified: " + document.lastModified;
+// Get the current year
+const currentYear = new Date().getFullYear();
+
+// Get the last modified date of the document
+const lastModifiedDate = new Date(document.lastModified);
+
+// Get the last modified date in a formatted string
+const formattedLastModifiedDate = lastModifiedDate.toLocaleDateString();
+
+// Get the p element in the footer
+const lastModified = document.getElementById("lastModified");
+lastModified.innerHTML = formattedLastModifiedDate;

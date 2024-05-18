@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:wght@100&family=Lora&family=PT+Serif&family=Raleway&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Pt Serif, Raleway, Dancing Script;
+  }
+  
+  body {
+    background-color: #84828F;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+/* Header styles */
+header {
+    padding: 20px;
+    background-color: #3E4C5E;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    color: whitesmoke;
+    margin: 0 10px;
+    text-decoration: none;
+    font-family: "Lora";
+    font-size: 30px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: #84828F;
+  }
+  
+  
+  /* Hero section styles */
+  #hero {
+    position: relative;
+    height: 400px;
+    background-color: #536271;
+  }
+  
+  #hero-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+  #hero-msg {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: whitesmoke
+  }
+  
+  .home-title {
+    font-size: 80px;
+    margin-bottom: 10px;
+    font-family: "Lora";
+  }
+
+  #hero-msg h4{
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+  
+  /* Main content styles */
+
+  .guate1-card,
+  .guate2-card,
+  .guate3-card,
+  .guate4-card,
+  .guate5-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #first_block {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #second-block {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+  }
+
+  .msg {
+    width: 1000px;
+    background-color: #6A687A;
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: whitesmoke;
+  }
+
+  .msg p {
+    text-align: center;
+    line-height: 2em;
+    width: 800px;
+    margin: 0 auto;
+    color: whitesmoke;
+  }
+
+.msg h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "Lora";
+}
+
+#hero-img {
+    margin-left: 300px;
+}
+
+#greatness {
+    margin-left: 390px;
+}
+
+  /* Footer styles */
+  footer {
+    padding: 20px;
+    background-color: #3E4C5E;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .social img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+  
+  .social img:hover {
+    opacity: 0.7;
+  }
+
+  footer a{
+    color: whitesmoke;
+  }
+
+  footer a:hover {
+    opacity: 0.7;
+  }
+  

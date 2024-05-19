@@ -2,40 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="WDD 230 - Web Fronted Development [Wessly Green] course assignment portal">
-    <title>Wessly Green - WDD 230 - Web Fronted Development</title>
-    <meta property="og:title" content="WDD 230 - Web Fronted Development">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="images/favicon.ico">
-    <meta property="og:url" content="https://wesslygreen.github.io/wdd230/">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wessly Green - WDD 230 - Web Frontend Development</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="icon" href="styles/favicon.ico">
+    <link rel="stylesheet" href="styles/small.css">
     <script src="scripts/getDates.js" defer></script>
+
+    <meta property="og:title" content="TourismCA">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Official website of TourismCA. Find the best deals for trips, activities and more.">
+    <meta property="og:image" content="https://deih43ym53wif.cloudfront.net/el-arco-antigua-city-agua-volcano-guatemala-shutterstock_769890442_310c953c75.jpeg">
+    <meta property="og:url" content="https://wesslygreen.github.io/wdd230/">
+    <link rel="icon" href="styles/favicon.ico">
 </head>
 <body>
-    <div class="banner">
-        <header>
-            <img id="picture" src="./images/wess.JPG" alt="Profile Image">
-            <span id="name">Wessly Green</span>
-        </header> 
+    <header>
+        <img id="picture" src="./images/wess.JPG" alt="Profile Image">
+        <h1>Wessly Green</h1>
+    </header>
+    <div id="mode">
+        🕶️
     </div>
-    
-    <ul class="navigation">
-        <li><a id="active" href="#">Home</a></li>
-        <li><a href="../chamber/index.html">Chamber</a></li>
-        <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
-        <li><a href="#">Form</a></li>
-    </ul>
- 
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="./week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="../chamber/index.html">Chamber</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
         <div class="long-line"></div>
         <section class="card">
             <h2>Learning Activities</h2>
             <p>Week 1: <a href="#activity1">Layout</a> | <a href="#activity2">Media</a> | <a href="#activity3">Js Pen</a></p>
-            <p>Week 2: <a href="https://codepen.io/Wessly-Green/pen/rNgNXNR">Code Pen Example</a> | <a href="week02/bom.html">BOM Activity</a></p>
+            <p>Week 2: <a href="https://codepen.io/Wessly/pen/XWwXVOy">Hamburger Responsive Menu</a> | <a href="../wdd230/week02/bom.html">BOM App</a></p>
             <p>Week 3:</p>
             <p>Week 4:</p>
             <p>Week 5:</p>
@@ -45,7 +50,7 @@
             <div id="information">
                 <h2>Information</h2>
                 <p>Guatemala, Guatemala City</p>
-                <p>Page Visits: 15</p>
+                <p>Number of Visits: 100</p>
                 <p>Current Date: May 3, 2024</p>
                 <p>Current Time: 12:30 PM</p>
             </div>    

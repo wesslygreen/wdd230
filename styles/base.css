@@ -1,13 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
-
-* {
-    font-family: 'Kanit', sans-serif;
-}
-
 /* Header styling */
 header {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: grid; /* This is valid CSS */
+    grid-template-columns: auto auto; /* Corrected */
     background-color: #61e786;
     color: white;
     text-align: center;
@@ -27,7 +21,7 @@ header h1 {
 /* Navigation styling */
 nav {
     width: 100%;
-    margin: 1rem auto;
+    margin: 16px auto; /* Changed 1rem to 16px */
 }
 
 #picture {
@@ -35,23 +29,22 @@ nav {
 }
 
 #menu {
-    font-size: 1.5rem;
+    font-size: 1.5em; /* Changed 1.5rem to 1.5em */
     border: 1px solid #9792e3;
-    padding: 1rem 2rem;
+    padding: 16px 32px; /* Changed 1rem 2rem to 16px 32px */
     background-color: #99B2DD;
 }
 
-#menu::before {
+#menu:before {
     content: "☰";
 }
 
-.open::before {
+.open:before {
     content: "❎";
 }
 
 .navigation {
-    display: flex;
-    flex-direction: column;
+    display: block; /* Changed flex to block */
     list-style: none;
     background-color: #823a80;
 }
@@ -62,7 +55,7 @@ nav {
 
 .navigation li a {
     display: block;
-    padding: 1rem;
+    padding: 16px; /* Changed 1rem to 16px */
     text-align: center;
     text-decoration: none;
     color: black;
@@ -92,7 +85,7 @@ nav {
     color: black;
     border-bottom: 1px solid black;
     margin: 5px;
-    grid-column: 1/3;
+    grid-column: 1 / span 2; /* Correct syntax */
 }
 
 main {
@@ -113,7 +106,7 @@ main h2:after {
 
 .card {
     border: black solid;
-    display: grid;
+    display: block; /* Changed grid to block */
     margin: 30px 0;
 }
 
@@ -123,7 +116,7 @@ main h2:after {
 }
 
 .card ul li {
-    padding: 0.8rem;
+    padding: 13px; /* Changed 0.8rem to 13px */
     text-align: left;
 }
 
@@ -166,8 +159,8 @@ footer p {
 /* Dark Mode Button */
 #mode {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: 16px; /* Changed 1rem to 16px */
+    right: 16px; /* Changed 1rem to 16px */
     width: 50px;
     background-color: white;
     cursor: pointer;

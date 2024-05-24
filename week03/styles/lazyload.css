@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    font-size: x-large;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    background-color: darkolivegreen;
+    color: azure;
+}
+
+footer p{
+    font-size: large;
+    padding: 15px;
+}
+
+img{display: block;
+    padding: 5px;
+    animation: fade 15s;
+}
+
+@keyframes fade{
+    0%{opacity: 0;}
+    20%{opacity: 1;}
+    80%{opacity: 1;}
+    100%{opacity: 0;}
+}

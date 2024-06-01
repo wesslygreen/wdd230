@@ -165,4 +165,15 @@ header {
   footer a:hover {
     opacity: 0.7;
   }
+
+  .date-container {
+    text-align: right;
+    color: whitesmoke;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.current-date {
+    font-family: "Lora";
+}
   

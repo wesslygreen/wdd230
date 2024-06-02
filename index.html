@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/small.css">
     <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/gettweather.js" defer></script>
+    <script src="scripts/lastvisits.js" defer></script>
 
     <meta property="og:title" content="TourismCA">
     <meta property="og:type" content="website">
@@ -33,7 +35,17 @@
             <li><a href="#">Form</a></li>
         </ul>
     </nav>
-
+    <div id = "hero">
+        <picture>
+            <source srcset="week03/images/temple-small.webp" media="(max-width: 400px)">
+            <source srcset="week03/images/temple.webp" media="(max-width: 900px)">
+            <img src="week03/images/temple-big.webp" alt="Guatemala temple" loading ="lazy" width="1970" height="813">
+        </picture>
+ 
+        <div id = "hero-label">
+            <p>Rome Temple</p>
+        </div>
+    </div>
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
         <div class="long-line"></div>
@@ -46,16 +58,15 @@
             <p>Week 5:</p>
             <p>Week 6:</p>
         </section>
-        <section class="card">
-            <div id="information">
-                <h2>Information</h2>
-                <p>Guatemala, Guatemala City</p>
-                <p>Number of Visits: 100</p>
-                <p>Current Date: May 3, 2024</p>
-                <p>Current Time: 12:30 PM</p>
-            </div>    
+        <section id="weather-card" class="card">
+            <h3>Information</h3>
+            <p>Rome, Italy</p>
+            <img id="weather-icon" src="" alt="">
+            <p><span id="weather"></span></p>
+            <p>Page Visits: <span id="pageVisits"></span></p>
         </section>
     </main>
+    <section id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247073.5457011671!2d-90.65737188739025!3d14.626162134174228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a180655c3345%3A0x4a72c7815b867b25!2sGuatemala%20City%2C%20Guatemala!5e0!3m2!1sen!2sus!4v1717266745371!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
     <footer>
         <p>&copy; 2024 Wessly Roy Green Contreras / Guatemala</p>
         <p>Last Modified: <span id="lastModified"></span></p>

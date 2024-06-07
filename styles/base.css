@@ -186,3 +186,9 @@ footer p {
 	opacity: 0.75;
     font-size: xx-large;
 }
+
+#map iframe {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}

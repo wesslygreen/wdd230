@@ -1,0 +1,86 @@
+:root {
+    --primary-color: #07452d;
+    --secondary-color: #068f74;
+    --font-family: Arial, sans-serif;
+}
+ 
+body {
+    font-family: var(--font-family);
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+}
+ 
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1em;
+}
+ 
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+ 
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+ 
+main {
+    padding: 2em;
+}
+ 
+form {
+    background: white;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+form div {
+    margin-bottom: 1em;
+}
+ 
+form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+ 
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="range"] {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+ 
+form button {
+    background: var(--primary-color);
+    color: white;
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+form button:hover {
+    background: darkgreen;
+}
+ 
+footer {
+    text-align: center;
+    padding: 1em;
+    background: var(--primary-color);
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

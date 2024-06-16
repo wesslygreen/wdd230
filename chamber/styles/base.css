@@ -9,7 +9,7 @@
   }
   
   body {
-    background-color: #84828F;
+    background-color: #140855;
   }
   
   .container {
@@ -44,7 +44,7 @@ header {
   nav a:hover {
     text-decoration: underline;
     color: white;
-    background-color: #84828F;
+    background-color: #461797;
   }
   
   
@@ -111,7 +111,7 @@ header {
 
   .msg {
     width: 1000px;
-    background-color: #6A687A;
+    background-color: #1a115d;
     margin: 0 auto;
     padding-top: 35px;
     padding-bottom: 35px;
@@ -176,4 +176,84 @@ header {
 .current-date {
     font-family: "Lora";
 }
-  
+
+/*Join Page*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #146140;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+main.form-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.form-container h1 {
+    text-align: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-container input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.membership-benefits {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f1f1f1;
+    border-radius: 8px;
+}
+
+.membership-benefits h2 {
+    margin-top: 0;
+}

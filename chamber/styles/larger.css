@@ -59,3 +59,21 @@
         transform: none;
     }
 }
+
+/*Join Page*/
+
+@media (min-width: 768px) {
+    main.form-page {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .form-container,
+    .membership-benefits {
+        width: 45%;
+    }
+
+    .form-container {
+        margin-right: 5%;
+    }
+}

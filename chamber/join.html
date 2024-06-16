@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../styles/favicon.ico">
+    <title>Join Us - Travel Guate Chamber of Commerce</title>
+    <link rel="stylesheet" href=../chamber/styles/base.css>
+    <link rel="stylesheet" href=../chamber/styles/larger.css>
+    <script src=../chamber/scripts/getdates.js defer></script>
+</head>
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="../chamber/images/logo.png" alt="Chamber Logo">
+        </a>
+        <nav>
+            <a href="../chamber/index.html">Home</a>
+            <a href="../chamber/discover.html">Discover</a>
+            <a href="../chamber/join.html">Join</a>
+        </nav>
+        <div id="date-container">
+            <p id="current-date"></p>
+        </div>
+    </header>
+    <main class="form-page">
+        <section class="form-container">
+            <h1>Join the Travel Guate Chamber of Commerce</h1>
+            <form action="thankyou.html" method="get">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+                
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+                
+                <label for="position">Title/Position:</label>
+                <input type="text" id="position" name="position" pattern="[A-Za-z\s-]{7,}" title="Must contain only letters, hyphens, and spaces, minimum 7 characters">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@example.com" required>
+                
+                <label for="phone">Mobile Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="organization-name">Business/Organization Name:</label>
+                <input type="text" id="organization-name" name="organization-name" required>
+                
+                <label for="membership-level">Membership Level:</label>
+                <select id="membership-level" name="membership-level">
+                    <option value="np">NP Membership (Non-profit, no fee)</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+                
+                <label for="description">Business/Organization Description:</label>
+                <textarea id="description" name="description"></textarea>
+                
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <aside class="membership-benefits">
+            <h2>Membership Benefits</h2>
+            <ul>
+                <li><strong>NP Membership:</strong> Access to non-profit events and resources.</li>
+                <li><strong>Bronze Membership:</strong> Includes special events, basic training.</li>
+                <li><strong>Silver Membership:</strong> Includes bronze benefits plus additional training and advertising.</li>
+                <li><strong>Gold Membership:</strong> Includes silver benefits plus premium advertising, spotlight positions, and event discounts.</li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>Chamber of Commerce &copy; 2023 - Wessly Green</p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="../chamber/images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="../chamber/images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="../chamber/images/instagram.png" alt="instagram icon">
+            </a>    
+        </div>
+    </footer>
+    <script>
+        // Set the current timestamp
+        document.getElementById('timestamp').value = new Date().toISOString();
+    </script>
+</body>
+</html>

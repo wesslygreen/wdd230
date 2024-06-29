@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Tikal National Park",
+        "address": "Petén, Guatemala",
+        "phone": "+502 1234 5678",
+        "website": "http://www.tikalnationalpark.org",
+        "image": "tikal.jpg",
+        "membership_level": "Gold",
+        "description": "Ancient Mayan ruins in the heart of the jungle."
+    },
+    {
+        "name": "Lake Atitlán",
+        "address": "Sololá, Guatemala",
+        "phone": "+502 2345 6789",
+        "website": "http://www.lakeatitlan.com",
+        "image": "atitlan.jpg",
+        "membership_level": "Silver",
+        "description": "Beautiful highland lake surrounded by volcanoes."
+    },
+    {
+        "name": "Antigua Guatemala",
+        "address": "Sacatepéquez, Guatemala",
+        "phone": "+502 3456 7890",
+        "website": "http://www.antiguaguatemala.com",
+        "image": "antigua.jpg",
+        "membership_level": "Platinum",
+        "description": "Colonial city with cobblestone streets and rich history."
+    },
+    {
+        "name": "Semuc Champey",
+        "address": "Alta Verapaz, Guatemala",
+        "phone": "+502 4567 8901",
+        "website": "http://www.semucchampey.com",
+        "image": "semuc.jpg",
+        "membership_level": "Gold",
+        "description": "Natural monument with limestone pools and caves."
+    },
+    {
+        "name": "Pacaya Volcano",
+        "address": "Escuintla, Guatemala",
+        "phone": "+502 5678 9012",
+        "website": "http://www.pacayavolcano.com",
+        "image": "pacaya.jpg",
+        "membership_level": "Silver",
+        "description": "Active volcano offering hiking and spectacular views."
+    },
+    {
+        "name": "Chichicastenango Market",
+        "address": "Quiché, Guatemala",
+        "phone": "+502 6789 0123",
+        "website": "http://www.chichicastenango.com",
+        "image": "chichi.jpg",
+        "membership_level": "Bronze",
+        "description": "Colorful market known for traditional crafts and textiles."
+    },
+    {
+        "name": "Monterrico Beach",
+        "address": "Santa Rosa, Guatemala",
+        "phone": "+502 7890 1234",
+        "website": "http://www.monterrico.com",
+        "image": "monterrico.jpg",
+        "membership_level": "Gold",
+        "description": "Popular beach destination on the Pacific coast."
+    }
+]

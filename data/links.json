@@ -1,0 +1,91 @@
+ 
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "week01/holygrail.html",
+            "title": "Holygrail"
+          },
+          {
+            "url": "week01/media-query.html",
+            "title": "Queries"
+          },
+          {
+            "url": "week01/holygrail.html",
+            "title": "Holygrail"
+          },
+          {
+            "url": "week01/holygrail.html",
+            "title": "Holygrail"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "week02/responsive-design.html",
+            "title": "Responsive Design"
+          },
+          {
+            "url": "week02/flexbox.html",
+            "title": "Flexbox"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "week03/css-grid.html",
+            "title": "CSS Grid"
+          },
+          {
+            "url": "week03/typography.html",
+            "title": "Typography"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "week04/forms.html",
+            "title": "Forms"
+          },
+          {
+            "url": "week04/tables.html",
+            "title": "Tables"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "week05/javascript-basics.html",
+            "title": "JavaScript Basics"
+          },
+          {
+            "url": "week05/dom-manipulation.html",
+            "title": "DOM Manipulation"
+          }
+        ]
+      },
+      {
+        "week": "Week 6",
+        "links": [
+          {
+            "url": "week06/advanced-js.html",
+            "title": "Advanced JavaScript"
+          },
+          {
+            "url": "week06/performance.html",
+            "title": "Web Performance"
+          }
+        ]
+      }
+    ]
+  }

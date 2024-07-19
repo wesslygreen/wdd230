@@ -108,12 +108,15 @@ header {
     margin-bottom: 15px;
   }
 
-  #hero-msg button
+  #hero a
   {
     background-color: #461797;
-    padding: 15px 15px;
+    padding: 25px 25px;
     color: white;
     font-size: large;
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
   }
   
   /* Main content styles */

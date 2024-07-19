@@ -8,18 +8,28 @@
     <title>Travel Guate Chamber of Commerce</title>
     <link rel="stylesheet" href="../chamber/styles/base.css">
     <link rel="stylesheet" href="../chamber/styles/larger.css">
+    <meta property="og:title" content="Travel Guate Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Official website of Travel Guate Chamber of Commerce. Find the best deals for trips, activities and more.">
+    <meta property="og:image" content="https://content.r9cdn.net/rimg/dimg/6f/d5/a11de2dc-city-43889-162df482d9d.jpg?width=1200&height=630&xhint=1422&yhint=2033&crop=true">
+    <meta property="og:url" content="https://wesslygreen.github.io/wdd230/chamber/index.html">
+    <meta property="og:author" content="Wessly Green">
     <script src="../chamber/scripts/getdates.js" defer></script>
     <script src="../chamber/scripts/toggleView.js" defer></script>
 </head>
 <body>
     <header>
         <a id="logo_link" href="index.html">
-            <img class="logo" src="../chamber/images/logo.png" alt="Chamber Logo">
+            <img class="logo" src="../chamber/images/logo.webp" alt="Chamber Logo">
         </a>
         <nav>
-            <a href="../chamber/index.html">Home</a>
-            <a href="../chamber/discover.html">Discover</a>
-            <a href="../chamber/join.html">Join</a>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="../chamber/index.html">Home</a></li>
+                <li><a href="../chamber/discover.html">Discover</a></li>
+                <li><a href="../chamber/join.html">Join</a></li>
+                <li><a href="../chamber/directory.html">Directory</a></li>
+            </ul>
         </nav>
         <div id="date-container">
             <p id="current-date"></p>
@@ -40,49 +50,49 @@
         <article class="grid">
             <h2>Featured Destinations</h2>
             <section>
-                <img src="../chamber/images/g4.jpg" alt="Panajachel">
+                <img src="../chamber/images/g4.webp" alt="Panajachel">
                 <h3>Panajachel</h3>
                 <p>A beautiful town on the shore of Lake Atitlán, known for its stunning views and vibrant market.</p>
                 <a href="https://www.tripadvisor.com/Tourism-g292008-Panajachel_Lake_Atitlan_Solola_Department_Western_Highlands-Vacations.html" target="_blank">Details</a>
             </section>
 
             <section>
-                <img src="../chamber/images/g7.jpg" alt="Tikal">
+                <img src="../chamber/images/g7.webp" alt="Tikal">
                 <h3>Tikal</h3>
                 <p>One of the largest archaeological sites and urban centers of the pre-Columbian Maya civilization.</p>
                 <a href="https://www.tikalnationalpark.org/" target="_blank">Details</a>
             </section>
 
             <section>
-                <img src="../chamber/images/g3.jpeg" alt="Volcán de Agua">
+                <img src="../chamber/images/g3.webp" alt="Volcán de Agua">
                 <h3>Volcán de Agua</h3>
                 <p>A stratovolcano located near Antigua, offering hiking opportunities with spectacular views.</p>
                 <a href="https://volcano.si.edu/volcano.cfm?vn=342100" target="_blank">Details</a>
             </section>
 
             <section>
-                <img src="../chamber/images/g2.jpg" alt="Cobán">
+                <img src="../chamber/images/g2.webp" alt="Cobán">
                 <h3>Cobán</h3>
                 <p>A city known for its coffee plantations, natural beauty, and cultural heritage.</p>
                 <a href="https://www.tripadvisor.es/Attraction_Review-g303868-d600477-Reviews-Semuc_Champey-Lanquin_Alta_Verapaz_Department.html" target="_blank">Details</a>
             </section>
 
             <section>
-                <img src="../chamber/images/g6.jpg" alt="Cayalá">
+                <img src="../chamber/images/g6.webp" alt="Cayalá">
                 <h3>Cayalá</h3>
                 <p>A modern city within a city, offering shopping, dining, and entertainment options.</p>
                 <a href="https://www.cayala.com/" target="_blank">Details</a>
             </section>
 
             <section>
-                <img src="../chamber/images/g8.jpg" alt="Irtra">
+                <img src="../chamber/images/g8.webp" alt="Irtra">
                 <h3>Irtra</h3>
                 <p>A popular recreational area with theme parks, water parks, and other family-friendly attractions.</p>
                 <a href="https://irtra.org.gt/" target="_blank">Details</a>
             </section>
 
             <section>
-                <img src="../chamber/images/g1.jpg" alt="Antigua Guatemala">
+                <img src="../chamber/images/g1.webp" alt="Antigua Guatemala">
                 <h3>Antigua Guatemala</h3>
                 <p>A UNESCO World Heritage Site known for its preserved Spanish Baroque-influenced architecture.</p>
                 <a href="https://whc.unesco.org/en/list/65/" target="_blank">Details</a>
@@ -91,15 +101,16 @@
     </main>
     <footer>
         <p>Chamber of Commerce &copy; 2023 - Wessly Green</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
-                <img src="../chamber/images/facebook.png" alt="fb icon">
+                <img src="../chamber/images/facebook.webp" alt="fb icon">
             </a>
             <a href="https://twitter.com" target="_blank">
-                <img src="../chamber/images/twitter.png" alt="twitter icon">
+                <img src="../chamber/images/twitter.webp" alt="twitter icon">
             </a>
             <a href="https://instagram.com" target="_blank">
-                <img src="../chamber/images/instagram.png" alt="instagram icon">
+                <img src="../chamber/images/instagram.webp" alt="instagram icon">
             </a>    
         </div>
     </footer>

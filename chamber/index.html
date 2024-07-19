@@ -9,19 +9,28 @@
     <link rel="stylesheet" href=../chamber/styles/normalize.css>
     <link rel="stylesheet" href=../chamber/styles/base.css>
     <link rel="stylesheet" href=../chamber/styles/larger.css>
+    <meta property="og:title" content="Travel Guate Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Official website of Travel Guate Chamber of Commerce. Find the best deals for trips, activities and more.">
+    <meta property="og:image" content="https://content.r9cdn.net/rimg/dimg/6f/d5/a11de2dc-city-43889-162df482d9d.jpg?width=1200&height=630&xhint=1422&yhint=2033&crop=true">
+    <meta property="og:url" content="https://wesslygreen.github.io/wdd230/chamber/index.html">
+    <meta property="og:author" content="Wessly Green">
     <script src=../chamber/scripts/getdates.js defer></script>
     <script src="../chamber/scripts/getweather.js" defer></script>
 </head>
 <body>
     <header>
         <a id="logo_link" href="index.html">
-            <img class="logo" src="../chamber/images/logo.png" alt="Chamber Logo">
+            <img class="logo" src="../chamber/images/logo.webp" alt="Chamber Logo">
         </a>
         <nav>
-            <a href="../chamber/index.html">Home</a>
-            <a href="../chamber/discover.html">Discover</a>
-            <a href="../chamber/join.html">Join</a>
-            <a href="../chamber/directory.html">Directory</a>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="../chamber/index.html">Home</a></li>
+                <li><a href="../chamber/discover.html">Discover</a></li>
+                <li><a href="../chamber/join.html">Join</a></li>
+                <li><a href="../chamber/directory.html">Directory</a></li>
+            </ul>
         </nav>
         <div id="date-container">
             <p id="current-date"></p>
@@ -31,24 +40,30 @@
         <section id="hero-msg">
             <h1 class="home-title">Travel Guate Chamber of Commerce </h1>
             <h4>Plan, Go, Enjoy!</h4>
+            <a href="../chamber/join.html"><button target="../chamber/join.html">Join Today!</button></a>
         </section>
     </div>
+    <picture>
+        <source srcset="../chamber/images/hero-image-small.webp" media="(max-width: 400px)">
+        <source srcset="../chamber/images/hero-image.webp" media="(max-width: 800px)">
+        <img src="../chamber/images/hero-image-big.webp" alt="Guatemala Beach" loading ="lazy" width="900" height="600">
+    </picture>
     <section id="weather-container">
         <div id="weather"></div>
         <img id="weather-icon" src="" alt="Weather Icon">
     </section>
 <main class="home-grid">
     <div id="first_block">
-        <section class="guate1-card">
-            <img class="card-img" src="../chamber/images/g1.jpg" alt="guate 1">
+        <section class="guate-card">
+            <img class="card-img" src="../chamber/images/g1.webp" alt="guate 1">
             <h2>Joy</h2>
         </section>
-        <section class="guate2-card">
-            <img class="card-img" src="../chamber/images/g2.jpg" alt="guate 2">
+        <section class="guate-card">
+            <img class="card-img" src="../chamber/images/g2.webp" alt="guate 2">
             <h2>Creating</h2>
         </section>
-        <section class="guate3-card">
-            <img class="card-img" src="../chamber/images/g6.jpg" alt="guate 3">
+        <section class="guate-card">
+            <img class="card-img" src="../chamber/images/g6.webp" alt="guate 3">
             <h2>Passion</h2>
         </section>
     </div>
@@ -57,30 +72,28 @@
         <p>The Travel Guatemala Chamber of Commerce is dedicated to promoting the vibrant tourism industry in Guatemala, a country renowned for its rich cultural heritage, stunning landscapes, and warm hospitality. Our chamber serves as a central hub for local travel and tourism businesses, including hotels, restaurants, tour operators, and attractions. We aim to highlight the unique offerings and services of our member businesses, fostering networking and growth opportunities within the tourism sector. By providing comprehensive information on local events, attractions, and initiatives geared towards travelers, we strive to enhance the visitor experience and support community engagement. Whether you are a traveler seeking to explore Guatemala’s hidden gems or a business aiming to attract more visitors, the Travel Guatemala Chamber of Commerce is here to connect you with the resources and opportunities to make your journey unforgettable.</p>
     </section>
     <div id="second-block">
-        <section class="guate4-card">
-            <img class="mountains" src="../chamber/images/g4.jpg" alt="guate 4">
+        <section class="guate-card">
+            <img class="mountains" src="../chamber/images/g4.webp" alt="guate 4">
             <h2>Motivation</h2>
         </section>
-        <section id="guate5-card">
-            <img id="hero-img" src="../chamber/images/g5.jpg" alt="guate 5">
+        <section class="guate-card">
+            <img id="second_mountains" src="../chamber/images/g5.webp" alt="guate 5">
             <h2 id="greatness">Greatness</h2>
         </section>
-    </div>
- 
+    </div> 
 </main>
 <footer>
     <p>Chamber of Commerce &copy; 2023 - Wessly Green</p>
-
-
+    <p>Last Modified: <span id="lastModified"></span></p>
     <div class="social">
         <a href="https://facebook.com" target="_blank">
-            <img src="../chamber/images/facebook.png" alt="fb icon">
+            <img src="../chamber/images/facebook.webp" alt="fb icon">
         </a>
         <a href="https://twitter.com" target="_blank">
-            <img src="../chamber/images/twitter.png" alt="twitter icon">
+            <img src="../chamber/images/twitter.webp" alt="twitter icon">
         </a>
         <a href="https://instagram.com" target="_blank">
-            <img src="../chamber/images/instagram.png" alt="instagram icon">
+            <img src="../chamber/images/instagram.webp" alt="instagram icon">
         </a>    
     </div>
 </footer>

@@ -8,20 +8,36 @@
     <title>Discover Travel Guate</title>
     <link rel="stylesheet" href="../chamber/styles/base.css">
     <link rel="stylesheet" href="../chamber/styles/larger.css">
+    <meta property="og:title" content="Travel Guate Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Official website of Travel Guate Chamber of Commerce. Find the best deals for trips, activities and more.">
+    <meta property="og:image" content="https://content.r9cdn.net/rimg/dimg/6f/d5/a11de2dc-city-43889-162df482d9d.jpg?width=1200&height=630&xhint=1422&yhint=2033&crop=true">
+    <meta property="og:url" content="https://wesslygreen.github.io/wdd230/chamber/index.html">
+    <meta property="og:author" content="Wessly Green">
     <script src="../chamber/scripts/getdates.js" defer></script>
-    <script src="../chamber/scripts/lazyload.js" defer></script>
     <script src="../chamber/scripts/visitdate.js" defer></script>
 </head>
 <body>
     <header>
         <a id="logo_link" href="index.html">
-            <img class="logo" src="../chamber/images/logo.png" alt="Chamber Logo">
+            <img class="logo" src="../chamber/images/logo.webp" alt="Chamber Logo">
         </a>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="discover.html">Discover</a>
-            <a href="join.html">Join</a>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="../chamber/index.html">Home</a></li>
+                <li><a href="../chamber/discover.html">Discover</a></li>
+                <li><a href="../chamber/join.html">Join</a></li>
+                <li><a href="../chamber/directory.html">Directory</a></li>
+            </ul>
         </nav>
+        <div id="hero">
+            <section id="hero-msg">
+                <h1 class="home-title">Travel Guate Chamber of Commerce </h1>
+                <h4>Plan, Go, Enjoy!</h4>
+                <a href="../chamber/join.html"><button target="../chamber/join.html">Join Today!</button></a>
+            </section>
+        </div>
         <div id="date-container">
             <p id="current-date"></p>
         </div>
@@ -41,27 +57,27 @@
                 <h2>Local Photos of Interest</h2>
                 <div class="photo-grid">
                     <div class="photo-item">
-                        <img src="../chamber/images/placeholder.png" data-src="../chamber/images/photo1.jpg" alt="Photo 1" class="lazy">
+                        <img src="../chamber/images/photo1.webp" alt="Photo 1" loading="lazy">
                         <p>Pana</p>
                     </div>
                     <div class="photo-item">
-                        <img src="../chamber/images/placeholder.png" data-src="../chamber/images/photo2.jpg" alt="Photo 2" class="lazy">
+                        <img src="../chamber/images/photo2.webp" alt="Photo 2" loading="lazy">
                         <p>Tikal</p>
                     </div>
                     <div class="photo-item">
-                        <img src="../chamber/images/placeholder.png" data-src="../chamber/images/photo3.jpg" alt="Photo 3" class="lazy">
+                        <img src="../chamber/images/photo3.webp" alt="Photo 3" loading="lazy">
                         <p>Volcan de Agua</p>
                     </div>
                     <div class="photo-item">
-                        <img src="../chamber/images/placeholder.png" data-src="../chamber/images/photo4.jpg" alt="Photo 4" class="lazy">
+                        <img src="../chamber/images/photo4.webp" alt="Photo 4" loading="lazy">
                         <p>Coban</p>
                     </div>
                     <div class="photo-item">
-                        <img src="../chamber/images/placeholder.png" data-src="../chamber/images/photo5.png" alt="Photo 5" class="lazy">
+                        <img src="../chamber/images/photo5.webp" alt="Photo 5" loading="lazy">
                         <p>Cayala</p>
                     </div>
                     <div class="photo-item">
-                        <img src="../chamber/images/placeholder.png" data-src="../chamber/images/photo6.jpg" alt="Photo 6" class="lazy">
+                        <img src="../chamber/images/photo6.webp" alt="Photo 6" loading="lazy">
                         <p>Irtra</p>
                     </div>
                 </div>
@@ -70,16 +86,18 @@
     </div>
     <footer>
         <p>Chamber of Commerce &copy; 2023 - Wessly Green</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+        <p>Contact Info: wesslygreen213@gmail.com</p>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
-                <img src="../chamber/images/facebook.png" alt="fb icon">
+                <img src="../chamber/images/facebook.webp" alt="fb icon">
             </a>
             <a href="https://twitter.com" target="_blank">
-                <img src="../chamber/images/twitter.png" alt="twitter icon">
+                <img src="../chamber/images/twitter.webp" alt="twitter icon">
             </a>
             <a href="https://instagram.com" target="_blank">
-                <img src="../chamber/images/instagram.png" alt="instagram icon">
-            </a>
+                <img src="../chamber/images/instagram.webp" alt="instagram icon">
+            </a>    
         </div>
     </footer>
 </body>

@@ -1,50 +1,3 @@
-.content-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 20px;
-    margin: 20px;
-}
-
-.sidebar {
-    background-color: #6A687A;
-    color: whitesmoke;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.main-content {
-    background-color: #536271;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.photo-gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-}
-
-.photo-item {
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.photo-item img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-}
-
-.photo-item img:hover {
-    transform: scale(1.1);
-}
-
-.photo-item p {
-    text-align: center;
-    color: whitesmoke;
-    margin-top: 10px;
-}
 
 @media (max-width: 768px) {
     .content-wrapper {
@@ -60,9 +13,39 @@
     }
 }
 
-/*Join Page*/
-
 @media (min-width: 768px) {
+    .navigation {
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 1.5rem;
+    }
+ 
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .msg {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .msg p {
+        font-size: large;
+      }
+    
+    .msg h2 {
+        font-size: larger;
+    }
+
+
     main.form-page {
         flex-direction: row;
         justify-content: space-between;
